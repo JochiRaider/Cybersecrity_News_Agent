@@ -196,6 +196,7 @@ Project Link: [https://github.com/JochiRaider/Cybersecrity_News_Agent](https://g
 * [thehackernews.com](https://thehackernews.com/)
 * [infosecurity-magazine.com](https://www.infosecurity-magazine.com/news/)
 * [XKCD](https://xkcd.com/)
+* [NIST NATIONAL VULNERABILITY DATABASE](https://nvd.nist.gov/)
 * [Fullstack academy](https://www.fullstackacademy.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
