@@ -33,15 +33,14 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Cybersecrity News Agent</h3>
+<h3 align="center">project_title</h3>
 
   <p align="center">
-    The project uses beautifulsoup to scrape a rotating list of security news websites for the latest articles, then uses the api from smmry.com to boil down the text to an adjustable number of sentences. Also, it grabs the newest CVEs added to the NIST NVD via their api. All of this is then composed into an HTML with inline CSS formatted email and can be sent to a list of recipients.    
-
-    <br/>
+    The project uses beautifulsoup to scrape a rotating list of security news websites for the latest articles, then uses the api from smmry.com to boil down the text to an adjustable number of sentences. Also, it grabs the newest CVEs added to the NIST NVD via their api. All of this is then composed into an HTML with inline CSS formatted email and can be sent to a list of recipients.
+    <br />
     <a href="https://github.com/JochiRaider/Cybersecrity_News_Agent"><strong>Explore the docs »</strong></a>
-    <br/>
-    <br/>
+    <br />
+    <br />
     <a href="https://github.com/JochiRaider/Cybersecrity_News_Agent">View Demo</a>
     ·
     <a href="https://github.com/JochiRaider/Cybersecrity_News_Agent/issues">Report Bug</a>
@@ -85,7 +84,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `JochiRaider`, `Cybersecrity_News_Agent`, `twitter_handle`, `aaron-kahn`, `jochikahn`, `gmail`, `Cybersecrity News Agent`, `project_description`
+Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `JochiRaider`, `Cybersecrity_News_Agent`, `twitter_handle`, `aaron-kahn`, `jochikahn`, `gmail`, `project_title`, `project_description`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
