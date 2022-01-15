@@ -82,7 +82,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="images/screen_cap.png" alt="Logo" style="display: block; height: auto; border: 0; width: auto; max-width: 100%;">
+<img src="images/screen_cap.png" alt="Email Example" style="display: block; height: auto; border: 0; width: auto; max-width: 100%;">
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -93,7 +93,7 @@
 
 * [Python 3](https://www.python.org/)
 * [EZgmail](https://ezgmail.readthedocs.io/en/latest/)
-* [BeautifulSoup](https://beautiful-soup-4.readthedocs.io/en/latest/)
+* [BeautifulSoup 4](https://beautiful-soup-4.readthedocs.io/en/latest/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -106,26 +106,35 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+These are the non-standard libraries you need to use the software and how to install them.
+* EZgmail
   ```sh
-  npm install npm@latest -g
+  pip install ezgmail
+  ```
+* BeautifulSoup 4
+  ```sh
+  pip install beautifulsoup4
   ```
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Set up a free [Google Cloud project](https://developers.google.com/workspace/guides/create-project)    
 2. Clone the repo
    ```sh
    git clone https://github.com/JochiRaider/Cybersecrity_News_Agent.git
-   ```
-3. Install NPM packages
+   ```      
+3. Place google access credentials in the same folder as main.py [How to create access credentials](https://developers.google.com/workspace/guides/create-credentials)    
+4. Add an email address to main.py at line 32   
+    <img src="images/setup_1.png" alt="Email Example" style="display: block; height: auto; border: 0; width: auto; max-width: 100%;">
+5. Main.py can be run on the command line
    ```sh
-   npm install
+   ./main.py
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+OR  
+
+6. Setup in crontab, example cron job for everyday at 6 am 
+   ```
+   * 06 * * * /<your file path>/Cybersecrity_News_Agent/main.py
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -137,24 +146,7 @@ This is an example of how to list things you need to use the software and how to
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [] Feature 1
-- [] Feature 2
-- [] Feature 3
-    - [] Nested Feature
-
-See the [open issues](https://github.com/JochiRaider/Cybersecrity_News_Agent/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 <!-- CONTRIBUTING -->
@@ -178,7 +170,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -198,9 +190,9 @@ Project Link: [https://github.com/JochiRaider/Cybersecrity_News_Agent](https://g
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
+* [XKCD](https://xkcd.com/)
+* [Fullstack academy](https://www.fullstackacademy.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
