@@ -30,10 +30,10 @@
 <br />
 <div align="center">
   <a href="https://github.com/JochiRaider/Cybersecrity_News_Agent">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" style="display: block; height: auto; border: 0; width: auto; max-width: 100%;">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Cybersecrity News Agent</h3>
 
   <p align="center">
     The project uses beautifulsoup to scrape a rotating list of security news websites for the latest articles, then uses the api from smmry.com to boil down the text to an adjustable number of sentences. Also, it grabs the newest CVEs added to the NIST NVD via their api. All of this is then composed into an HTML with inline CSS formatted email and can be sent to a list of recipients.
@@ -82,9 +82,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<img src="images/screen_cap.png" alt="Logo" style="display: block; height: auto; border: 0; width: auto; max-width: 100%;">
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `JochiRaider`, `Cybersecrity_News_Agent`, `twitter_handle`, `aaron-kahn`, `jochikahn`, `gmail`, `project_title`, `project_description`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -92,14 +91,9 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Python 3](https://www.python.org/)
+* [EZgmail](https://ezgmail.readthedocs.io/en/latest/)
+* [BeautifulSoup](https://beautiful-soup-4.readthedocs.io/en/latest/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -108,7 +102,6 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
@@ -227,4 +220,4 @@ Project Link: [https://github.com/JochiRaider/Cybersecrity_News_Agent](https://g
 [license-url]: https://github.com/JochiRaider/Cybersecrity_News_Agent/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/aaron-kahn
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/screen_cap.png
