@@ -179,7 +179,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - jochikahn@gmail.com
+Aaron - jochikahn@gmail.com
 
 Project Link: [https://github.com/JochiRaider/Cybersecrity_News_Agent](https://github.com/JochiRaider/Cybersecrity_News_Agent)
 
@@ -191,6 +191,10 @@ Project Link: [https://github.com/JochiRaider/Cybersecrity_News_Agent](https://g
 ## Acknowledgments
 
 * [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
+* [hackread.com](https://www.hackread.com/)
+* [cyberdefensemagazine.com](https://www.cyberdefensemagazine.com/)
+* [thehackernews.com](https://thehackernews.com/)
+* [infosecurity-magazine.com](https://www.infosecurity-magazine.com/news/)
 * [XKCD](https://xkcd.com/)
 * [Fullstack academy](https://www.fullstackacademy.com/)
 
@@ -209,7 +213,7 @@ Project Link: [https://github.com/JochiRaider/Cybersecrity_News_Agent](https://g
 [issues-shield]: https://img.shields.io/github/issues/JochiRaider/Cybersecrity_News_Agent.svg?style=for-the-badge
 [issues-url]: https://github.com/JochiRaider/Cybersecrity_News_Agent/issues
 [license-shield]: https://img.shields.io/github/license/JochiRaider/Cybersecrity_News_Agent.svg?style=for-the-badge
-[license-url]: https://github.com/JochiRaider/Cybersecrity_News_Agent/blob/master/LICENSE.txt
+[license-url]: https://github.com/JochiRaider/Cybersecrity_News_Agent/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/aaron-kahn
 [product-screenshot]: images/screen_cap.png
