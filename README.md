@@ -125,13 +125,14 @@ These are the non-standard libraries you need to use the software and how to ins
 3. Place google access credentials in the same folder as main.py [How to create access credentials](https://developers.google.com/workspace/guides/create-credentials)    
 4. Add an email address to main.py at line 32   
     <img src="images/setup_1.png" alt="Email Example" style="display: block; height: auto; border: 0; width: auto; max-width: 100%;">
-5. Main.py can be run on the command line
+5. Setup an account with summry and get an API key see [link] (https://smmry.com/api). Add the API key to your enviromental variables as "SMMRY_API" 
+6. Main.py can be run on the command line
    ```sh
    ./main.py
    ```
 OR  
 
-6. Setup in crontab, example cron job for everyday at 6 am 
+7. Setup in crontab, example cron job for everyday at 6 am 
    ```
    * 06 * * * /<your file path>/Cybersecrity_News_Agent/main.py
    ```
