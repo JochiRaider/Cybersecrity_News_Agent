@@ -1,4 +1,18 @@
 #!/usr/bin/env python3 
+'''
+This is a Python script that scrapes news articles from various cybersecurity news websites. It uses the BeautifulSoup library to parse HTML code and extract information such as article titles, links, and publication dates. The script consists of a NewsScrapers class, which has several methods to scrape different websites.
+
+The __init__ method initializes the class and sets two instance variables for the current date and yesterday's date. These dates are used to filter out articles that are not from the last two days.
+
+The news_call method is the main method that calls other methods to scrape news articles. It checks whether today's date is even or odd and selects which websites to scrape based on that. It also checks whether the total number of articles scraped is less than six and adds more articles from a different website if necessary. After scraping all the articles, it calls the smmry_api_agent method to summarize each article. Finally, it sorts the list of articles by the length of their summaries and returns the sorted list.
+
+The other methods in the NewsScrapers class are specific to different news websites. They each use the news_site_scraper method to scrape articles from the website and return a list of lists, where each inner list contains the title, link, and publication date of an article.
+
+The request_news_site method sends a GET request to a URL and returns the parsed HTML code as a BeautifulSoup object. It also handles exceptions that may occur during the request and retries the request after waiting five seconds.
+
+The new_news_sort method filters out articles that are not from the last two days based on their publication dates. It uses regular expressions to extract the publication dates from the HTML code.
+-chat gpt
+'''
 
 
 import bs4 
